@@ -8,6 +8,36 @@
     <meta name="author" content="RJ Lomotan" />
     <title> Minecraft Mobs </title>
     <link rel = "icon" href = "../assets/minecraft-logo.png" type = "image/png">
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- STYLESHEET -->
+
+    <!-- INTERNAL CSS -->
+
+    <style>
+        header {
+            background-color: rgba(216, 255, 186, 0.7);
+            border-radius: 15px;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        section {
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 15px;
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 10px;
+        }
+
+        .mobs {
+            float: left;
+            margin-right: 40px;
+        }
+
+        #mobs {
+            float: right;
+            border-radius: 15px;
+        }
+    </style>
 </head>
     <body>
         <header>
@@ -21,7 +51,6 @@
                     <a href="https://s3an-cool.github.io/2QRepositoryMg03/public/2Q19MagnesiumBuenavista.html"> Items || </a>
                     <a href="https://nathanraphaelcarreon22.github.io/2QRepositoryMg05/public/2Q1GMagnesiumCarreon.html"> Tools And Weapons </a>
                 </nav>
-                <hr>
             </div>
         </header>
 
@@ -30,7 +59,9 @@
         <section>
         <article>
         <h2> Minecraft Mobs </h2>
-        <p>
+        <p class="mobs">
+            <img id="mobs" src="../assets/mobs.jpeg" alt="passive mobs" title="Passive Mobs" width="300px" height="200px" />
+
              A <b>mob</b> is an AI-driven entity that can spawn in your Minecraft world. 
             In the AI of mobs, there are three types, passive, hostile, and neutral.
             Different types of mobs can drop loot (or not) and can be hurt by nature, the player, and even other mobs.
@@ -101,6 +132,7 @@
         </article>
 
         <!-- TABLE -->
+
          <article>
          <h2> Summary Table </h2>
          <p> To summarize mobs, here is a table containing examples of them. </p>

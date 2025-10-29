@@ -3,7 +3,7 @@ body {
     background-attachment: fixed;
 }
 
-    nav {
+nav {
     background-image: url(https://preview.redd.it/xa40ixptjv761.jpg?width=1080&crop=smart&auto=webp&s=bb53671210fa083b4e1a77ad1b56c6c58d667e82);
     background-attachment: fixed;
     background-repeat: repeat;
@@ -32,8 +32,9 @@ footer {
     padding: 30px 30px;
     text-align: left;
 }
+
 footer h2 {
-    color: #4CAF50
+    color: #4CAF50;
     margin-bottom: 25px;
     text-align: center;
 }
